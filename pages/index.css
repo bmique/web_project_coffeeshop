@@ -103,8 +103,31 @@
   padding: 0;
 }
 
-.header__footer_list-item {
+.recipes {
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 100px 80px 40px;
 }
 
-.header__footer_address {
+.recipes__title {
+  max-width: 580px;
+  margin-bottom: 24px;
+}
+.recipes__subtitle {
+  max-width: 438px;
+  margin-bottom: 80px;
+}
+
+.recipes__videos {
+  align-items: center;
+  display: block;
+}
+
+.recipes__videos_iframes {
+  display: flex;
+  gap: 40px;
 }
