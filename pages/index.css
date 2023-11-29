@@ -88,7 +88,7 @@
   margin-top: auto;
 }
 
-.header__footer_column {
+.header__footer-column {
   display: flex;
   justify-content: space-between;
   margin: 0 80px 40px;
@@ -98,7 +98,7 @@
   color: #838383;
 }
 
-.header__footer_list {
+.header__footer-column_list {
   list-style: none;
   padding: 0;
 }
@@ -137,12 +137,12 @@
   justify-content: center;
 }
 
-.recipes__videos_iframes {
+.recipes__videos-iframes {
   display: flex;
   gap: 40px;
 }
 
-.recipes__video-caption {
+.recipes__videos-caption {
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 20px;
