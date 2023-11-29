@@ -103,6 +103,11 @@
   padding: 0;
 }
 
+.header__footer-column_address {
+  margin: 0;
+  align-items: end;
+}
+
 .recipes {
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
@@ -140,6 +145,7 @@
 .recipes__videos-iframes {
   display: flex;
   gap: 40px;
+  margin-top: 0;
 }
 
 .recipes__videos-caption {
