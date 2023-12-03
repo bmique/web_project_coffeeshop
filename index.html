@@ -116,7 +116,67 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reserve-link"></section>
+        <section class="reservation" id="reserve-link">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset"></fieldset>
+            <label for="name" class="form__label">Nombre *</label>
+            <input
+              type="text"
+              class="form__item"
+              id="name"
+              name="name"
+              placeholder="Nombre Apellido"
+              required
+            />
+            <label for="number-people" class="form__label"
+              >Número de comensales *</label
+            >
+            <input
+              type="number"
+              class="form__item"
+              min="1"
+              max="8"
+              id="number-people"
+              name="number-people"
+              placeholder="1-8"
+              required
+            />
+            <label for="date-time" class="form__label">Fecha y hora *</label>
+            <input
+              type="datetime-local"
+              class="form__item"
+              id="date-time"
+              name="date-time"
+              required
+            />
+            <label for="email" class="form__label"
+              >Tu correo electrónico *</label
+            >
+            <input
+              type="email"
+              class="form__item"
+              id="email"
+              name="email"
+              placeholder="email@email.com"
+              required
+            />
+
+            <button type="submit" class="form__button">
+              Reservar una mesa
+            </button>
+            <label for="conditions" class="form__label form__label_right">
+              <input
+                type="checkbox"
+                name="conditions"
+                id="conditions"
+                class="form__item form__item_radius"
+                required
+              />
+              <span class="form__label-text">Acepto los términos de uso</span>
+            </label>
+          </form>
+        </section>
         <section class="menu" id="menu-link"></section>
         <section class="about"></section>
       </main>
