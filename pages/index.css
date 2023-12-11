@@ -5,3 +5,74 @@
 @import url("..blocks/recipes.css");
 @import url("..blocks/reservation.css");
 @import url("..blocks/form.css");
+
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__title {
+  max-width: 780px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+}
+
+.menu__subtitle {
+  max-width: 780px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 24px 0 100px;
+}
+
+/*.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+}*/
+
+.card {
+  width: 540px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  margin-bottom: 100px;
+}
+
+.card__title {
+  margin: 0 0 32px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card__list-item {
+  margin: 0 0 16px;
+}
+
+.card__list-item:last-of-type {
+  margin: 0;
+}
+
+.card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Serif";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  width: 540px;
+}
