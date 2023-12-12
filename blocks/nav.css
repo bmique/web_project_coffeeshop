@@ -22,3 +22,7 @@
   font-weight: 500;
   line-height: 20px;
 }
+
+.nav__link:hover {
+  color: #2f80ed;
+}
