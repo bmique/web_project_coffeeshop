@@ -16,6 +16,7 @@
   line-height: 52px;
   margin: 0;
 }
+
 .recipes__subtitle {
   max-width: 438px;
   margin-top: 24px;
@@ -23,6 +24,7 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
+  font-weight: 100;
 }
 
 .recipes__videos {
